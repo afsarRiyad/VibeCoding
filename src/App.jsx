@@ -1,4 +1,5 @@
 import Navbar from './components/navbar/Navbar';
+import HeroSlider from './pages/HeroSlider';
 import Home from './pages/Home';
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <div>
       <Navbar />
       <Home />
+      <HeroSlider/>
     </div>
   );
 }
